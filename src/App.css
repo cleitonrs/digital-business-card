@@ -15,9 +15,12 @@ body {
   align-items: center;
 }
 
+/* INFO COMPONENTS */
+
 .App {
   width: 317px;
-  background-color: #1a1b21;  
+  background-color: #1a1b21;
+  border-radius: 0 0 10px 10px;  
 }
 
 
@@ -80,11 +83,25 @@ button {
   border: 1px solid #d1d5db;
 }
 
+.email__btn .email__icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
 .linkedin__btn {
   background-color: #5093e2;
   color: #fff;
   border: 1px solid #5093e2;
 }
+
+.linkedin__btn .linkedin__icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* ABOUT COMPONENTS */
 
 .about__container {
   margin: 36px 34px 3px 36px;
@@ -103,6 +120,8 @@ button {
   color: #dcdcdc;
 }
 
+/* INTERESTS COMPONENT */
+
 .interests__container {
   margin: 27px 34px 3px 36px;
 }
@@ -119,4 +138,13 @@ button {
   line-height: 15px;
   color: #dcdcdc;
   margin-bottom: 24px;
+}
+
+/* FOOTER COMPONENT */
+
+.footer__container {
+  width: 317px;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
 }

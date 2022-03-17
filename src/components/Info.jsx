@@ -1,4 +1,6 @@
 import React from 'react'
+import mail from '../img/mail.svg'
+import linkedin from '../img/linkedin.svg'
 
 const Info = () => {
   return (
@@ -8,8 +10,8 @@ const Info = () => {
       <h3>Frontend Developer</h3>
       <h4>laurasmith.website</h4>
       <div className="button__container">
-        <button className='email__btn'>Email</button>
-        <button className='linkedin__btn'>LinkedIn</button>
+        <button className='email__btn'> <img className='email__icon' src={mail} alt="envelope" /> Email</button>
+        <button className='linkedin__btn'> <img className='linkedin__icon' src={linkedin} alt="linkedin icon" /> LinkedIn</button>
       </div>
     </div>
   )
