@@ -100,4 +100,23 @@ button {
   font-size: 10.24px;
   font-weight: 400;
   line-height: 15px;
+  color: #dcdcdc;
+}
+
+.interests__container {
+  margin: 27px 34px 3px 36px;
+}
+
+.interests__container h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.interests__container p {
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #dcdcdc;
+  margin-bottom: 24px;
 }
