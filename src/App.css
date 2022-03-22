@@ -15,6 +15,7 @@ body {
   align-items: center;
 }
 
+
 /* INFO COMPONENTS */
 
 .App {
@@ -86,6 +87,11 @@ button:hover {
   border: 1px solid #d1d5db;
 }
 
+.email__btn a {
+  text-decoration: none;
+  color: #374151;
+}
+
 .email__btn .email__icon {
   width: 16px;
   height: 16px;
@@ -96,6 +102,11 @@ button:hover {
   background-color: #5093e2;
   color: #fff;
   border: 1px solid #5093e2;
+}
+
+.linkedin__btn a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .linkedin__btn .linkedin__icon {
@@ -155,18 +166,19 @@ button:hover {
   align-items: center;
 }
 
-.footer__container img {
+.footer__container a img {
   width: 25px;
   height: 25px;
   margin: 0 12px;
   cursor: pointer;
 }
 
-.footer__container img:hover {
+.footer__container a img:hover {
   filter: brightness(2);
 }
 
-.footer__container img:last-child {
+
+.footer__container a .github__icon {
   width: 28.5px;
   height: 28.5px;
 }
