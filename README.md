@@ -1,6 +1,18 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## About Project
+
+This project was made with the purpose of practicing React JS and solve scrimba.com challenge.<br>
+This is a simple digital business card.
+
+## Screenchot
+
+![print](https://user-images.githubusercontent.com/62728037/160005432-ab5ed123-b90b-441e-b35c-f6ebf4161a91.png)
+
+Live Site URL: https://scrimba-business-card.netlify.app/
 
 ## Available Scripts
 
