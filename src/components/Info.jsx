@@ -1,12 +1,12 @@
 import React from 'react'
-import Laura from '../img/Laura.png'
+import laura from '../img/laura.png'
 import mail from '../img/mail.svg'
 import linkedin from '../img/linkedin.svg'
 
 const Info = () => {
   return (
     <div className='info__container'>
-      <img className='hero' src={Laura} alt="Laura photo" />
+      <img className='hero' src={laura} alt="Laura photo" />
       <h1>Laura Smith</h1>
       <h3>Frontend Developer</h3>
       <h4>laurasmith.website</h4>
